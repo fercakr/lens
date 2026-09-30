@@ -1,30 +1,42 @@
-/* Základ */
 body {
-    font-family: sans-serif;
-    margin: 40px;
-    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.6;
+    color: #333;
 }
 
-/* Různé pozadí pro každou stránku */
-.index-bg {
-    background-color: #e3f2fd; /* Světle modrá pro úvod */
+header {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 15px;
 }
 
-.galerie-bg {
-    /* Příklad použití fotky z galerie přímo jako pozadí webu */
-    background-image: url('obrazky/jungle1.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    color: #fff; /* Aby byl text na tmavé fotce vidět */
+nav a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: 600;
 }
 
-.knn-bg {
-    background-color: #f3e5f5; /* Světle fialová pro kontakt */
+nav a:hover {
+    text-decoration: underline;
 }
 
-/* Zmenšení obrázků v galerii, ať nejsou obří */
 img {
     max-width: 250px;
     height: auto;
-    border-radius: 4px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
 }
