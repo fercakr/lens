@@ -1,0 +1,30 @@
+/* Základ */
+body {
+    font-family: sans-serif;
+    margin: 40px;
+    color: #222;
+}
+
+/* Různé pozadí pro každou stránku */
+.index-bg {
+    background-color: #e3f2fd; /* Světle modrá pro úvod */
+}
+
+.galerie-bg {
+    /* Příklad použití fotky z galerie přímo jako pozadí webu */
+    background-image: url('obrazky/jungle1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff; /* Aby byl text na tmavé fotce vidět */
+}
+
+.knn-bg {
+    background-color: #f3e5f5; /* Světle fialová pro kontakt */
+}
+
+/* Zmenšení obrázků v galerii, ať nejsou obří */
+img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 4px;
+}
